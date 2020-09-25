@@ -13,7 +13,7 @@
 python manage.py runserver
 ```
 
-##Applications URLs
+## Applications URLs
 
 | Application | URL                           | Description                                  |
 | ----------- | ----------------------------- | -------------------------------------------- |
