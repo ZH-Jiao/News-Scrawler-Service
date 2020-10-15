@@ -17,7 +17,7 @@ class Scrawler:
         self.url = None
         self.kafka = MyKafka()
 
-    def read_url(self, url):
+    def read_url_to_soup(self, url):
         headers = {
             'Access-Control-Allow-Origin': '*',
             'Access-Control-Allow-Methods': 'GET',
@@ -28,8 +28,8 @@ class Scrawler:
         self.url = url
         req = requests.get(url, headers)
         req.encoding = 'utf-8'
-        self.soup = BeautifulSoup(req.content, 'html.parser')
-        return self
+        soup = BeautifulSoup(req.content, 'html.parser')
+        return soup
 
     def get_content_by_p(self, soup=None):
         if soup is None:
@@ -135,28 +135,3 @@ class CNNScrawler(Scrawler):
         }
         self.kafka.write_dict(news_dict)
 
-
-    def get_cnn_news_page_another_schema(self, url):
-        """
-        Read the current soup, compose a single article in this page, and write to DB in News
-        """
-        print(f'## Getting news from {url}')
-        soup = self.read_url(url).soup
-        title = soup.find('h1').text
-        meta_soup = soup.find('div', _class='metadata')
-        authors = meta_soup.find('span', _class='metadata__byline__author').find_all('a')
-        authors = [author.text.strip() for author in authors]
-        update_time = meta_soup.find('p', _class='update-time').text.strip()
-        contents = soup.find_all('div', _class='zn-body__paragraph')
-        contents_list = [content.text.strip() for content in contents]
-        content = ''.join(contents_list)
-        entry = News(
-            title=title,
-            abstract="empty",
-            author=''.join(authors),
-            source="cnn",
-            published_date=update_time,
-            url=url,
-            content=content,
-        )
-        entry.save()
