@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import requests
 import re
 from .models import News
+from .kafka_util import MyKafka
 
 
 class Scrawler:
@@ -14,6 +15,7 @@ class Scrawler:
     def __init__(self):
         self.soup = None
         self.url = None
+        self.kafka = MyKafka()
 
     def read_url(self, url):
         headers = {
@@ -120,6 +122,19 @@ class CNNScrawler(Scrawler):
             content=soup.find('section', id="body-text").text,
         )
         entry.save()
+
+        # Compose Json and save to kafka
+        news_dict = {
+            'title': title,
+            'abstract': abstract,
+            'author': ''.join(authors),
+            'source': 'CNN',
+            'published_date': published_time,
+            'url': url,
+            'content': soup.find('section', id="body-text").text
+        }
+        self.kafka.write_dict(news_dict)
+
 
     def get_cnn_news_page_another_schema(self, url):
         """
