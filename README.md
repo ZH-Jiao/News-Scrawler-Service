@@ -6,7 +6,8 @@
 
 - `BeautifulSoup`
 - `MongoDB`
-
+- Kafka
+- Selenium (with geckodriver)
 ## Run application
 
 ```

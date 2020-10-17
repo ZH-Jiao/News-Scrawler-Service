@@ -5,9 +5,11 @@ from urllib.error import URLError
 import requests
 from bs4 import BeautifulSoup
 from requests import HTTPError
+from selenium.webdriver.common.by import By
 
 from NewsGetter.TimeMeasure import TimeMeasure
 from NewsGetter.kafka_util import MyKafka
+from selenium import webdriver
 
 
 class NewsSource:
@@ -121,19 +123,52 @@ class CNNSource(NewsSource):
     def __init__(self):
         super().__init__()
         self.soup = None
-        self.url = ('https://www.cnn.com/politics')
+        self.url = ('https://www.cnn.com/')
+        self.url_list = [
+            'https://www.cnn.com/us',
+            'https://www.cnn.com/world',
+            'https://www.cnn.com/politics',
+            'https://www.cnn.com/business',
+            'https://www.cnn.com/opinion',
+            'https://www.cnn.com/health',
+            'https://www.cnn.com/entertainment',
+            'https://www.cnn.com/style',
+            'https://www.cnn.com/travel',
+        ]
         self.source_name = 'CNN'
+
         self.kafka_topic = 'News_feed_cnn'
         self.kafka = MyKafka()
+        self.kafka.start_producer(self.kafka_topic)
+
         self.visited = set()
         self.count = 0
-        self.visited.add('https://www.cnn.com')
-        self.kafka.start_producer(self.kafka_topic)
+
+        self.browser = webdriver.Firefox()
+        self.browser.get(self.url)
 
     def produce_news_to_kafka(self, count=10):
         print(f'Start at {self.url}')
+        for category in self.url_list:
+            self.browser.get(category)
+            elems = self.browser.find_elements(By.TAG_NAME, 'article')
+            cur_count = 0
+            print(f'visiting: {category}')
+            for e in elems:
+                if cur_count >= count:
+                    break
+                url = e.get_attribute('data-vr-contentbox')
+                url = 'https://www.cnn.com' + url
+                self.visited.add(url)
+                cur_count += 1
 
-        self.dfs(self.url, count)
+
+        for article_url in self.visited:
+            self.get_cnn_news_page(article_url)
+
+
+
+
 
     def dfs(self, url, max_count=100):
         if self.count >= max_count:
@@ -157,7 +192,7 @@ class CNNSource(NewsSource):
             # Find links to articles
             # attrs = {'data-vr-contentbox': re.compile('.*')}
             # body = soup.find('body')
-            print(soup)
+            # print(soup)
             # re.compile('article.*')
             links = soup.find_all('article')
             print(f'len of Articles: {len(links)}')
@@ -184,7 +219,10 @@ class CNNSource(NewsSource):
         Read the current soup, compose a single article in this page, and write to DB in News
         Example page: https://www.cnn.com/2020/09/25/politics/voting-rights-act-history-election-2020/index.html
         """
-        print(f'## Getting news from {url}')
+        if not re.match(self.pattern, url):
+            print(url + 'does not match article pattern')
+            return
+        # print(f'## Getting news from {url}')
         soup = self.read_url_to_soup(url)
 
         title = soup.find('meta', attrs={'itemprop': 'headline'}).attrs['content']
@@ -196,7 +234,7 @@ class CNNSource(NewsSource):
         content = ''.join(contents_list)
 
         # Compose Json and save to kafka
-        print(f'Writing ' + title)
+        # print(f'Writing ' + title)
         self.kafka.write_dict(self.get_news_dict(
             title=title,
             abstract=abstract,

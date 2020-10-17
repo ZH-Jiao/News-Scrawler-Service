@@ -1,0 +1,278 @@
+1602802227816	geckodriver	INFO	Listening on 127.0.0.1:55529
+1602802865491	geckodriver	INFO	Listening on 127.0.0.1:58525
+1602802866501	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6h/m587l7615rd_v4fthk1vdnmr0000gn/T/rust_mozprofileeJWWnX"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602802871030	Marionette	INFO	Listening on port 58540
+1602802871121	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+1602803312612	geckodriver	INFO	Listening on 127.0.0.1:60812
+1602803313649	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6h/m587l7615rd_v4fthk1vdnmr0000gn/T/rust_mozprofilewCDwgo"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602803317088	Marionette	INFO	Listening on port 60831
+1602803317174	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+1602803347318	geckodriver	INFO	Listening on 127.0.0.1:61275
+1602803348333	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6h/m587l7615rd_v4fthk1vdnmr0000gn/T/rust_mozprofile9XRl8C"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602803352585	Marionette	INFO	Listening on port 61290
+1602803352670	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+JavaScript error: https://cti.w55c.net/ct/cms-2.min.js, line 1: TypeError: s[i.parameter] is undefined
+1602803455283	Marionette	INFO	Stopped listening on port 58540
+1602803457184	Marionette	INFO	Stopped listening on port 60831
+1602803458875	Marionette	INFO	Stopped listening on port 61290
+1602803467567	geckodriver	INFO	Listening on 127.0.0.1:62174
+1602803468584	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6h/m587l7615rd_v4fthk1vdnmr0000gn/T/rust_mozprofileWkwPbJ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602803471587	Marionette	INFO	Listening on port 62190
+1602803471683	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+Unable to read VR Path Registry from /Users/jzh/Library/Application Support/OpenVR/.openvr/openvrpaths.vrpath
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript error: https://libs.outbrain.com/vidget/vidget.js?e=1, line 8: TypeError: this.player is null
+JavaScript error: https://libs.outbrain.com/vidget/vidget.js?e=1, line 8: TypeError: this.player is null
+JavaScript error: https://libs.outbrain.com/vidget/vidget.js?e=1, line 8: TypeError: e.player is null
+JavaScript error: https://libs.outbrain.com/vidget/vidget.js?e=1, line 8: TypeError: e.player is null
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39013F,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+1602803664184	Marionette	INFO	Stopped listening on port 62190
+1602803666547	geckodriver	INFO	Listening on 127.0.0.1:63600
+1602803667565	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6h/m587l7615rd_v4fthk1vdnmr0000gn/T/rust_mozprofileV5blVC"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602803671231	Marionette	INFO	Listening on port 63615
+1602803671293	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+Unable to read VR Path Registry from /Users/jzh/Library/Application Support/OpenVR/.openvr/openvrpaths.vrpath
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/2020/10/15/politics/nbc-abc-dueling-town-halls/index.html, line 1: unreachable code after return statement
+1602805355992	geckodriver	INFO	Listening on 127.0.0.1:55495
+1602805356997	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6h/m587l7615rd_v4fthk1vdnmr0000gn/T/rust_mozprofileoBAoGU"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+1602805359320	Marionette	INFO	Listening on port 55514
+1602805359385	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://adservice.google.com/adsid/integrator.js?domain=www.cnn.com&upapi=true, line 1: ReferenceError: processGoogleToken is not defined
+Unable to read VR Path Registry from /Users/jzh/Library/Application Support/OpenVR/.openvr/openvrpaths.vrpath
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://adservice.google.com/adsid/integrator.js?domain=www.cnn.com&upapi=true, line 1: ReferenceError: processGoogleToken is not defined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1602806285979	Marionette	INFO	Stopped listening on port 63615
+1602806287955	Marionette	INFO	Stopped listening on port 55514
+1602806311574	geckodriver	INFO	Listening on 127.0.0.1:60461
+1602806312579	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6h/m587l7615rd_v4fthk1vdnmr0000gn/T/rust_mozprofileWIUNDE"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602806316886	Marionette	INFO	Listening on port 60477
+1602806316909	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+1602806439222	Marionette	INFO	Stopped listening on port 60477
+1602806470077	geckodriver	INFO	Listening on 127.0.0.1:61498
+1602806471084	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6h/m587l7615rd_v4fthk1vdnmr0000gn/T/rust_mozprofile9ud73T"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602806480325	Marionette	INFO	Listening on port 61513
+1602806480379	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+JavaScript error: https://d2uap9jskdzp2.cloudfront.net/script.js line 1 > eval, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://www.cnn.com/business line 1 > injectedScript, line 4: TypeError: googletag.pubads is not a function
+JavaScript error: https://www.cnn.com/health line 1 > injectedScript, line 4: TypeError: googletag.pubads is not a function
+JavaScript error: https://verticals-static.cnn.com/travel/assets/2.7ebc5e43b262b433fb83.js, line 36: TypeError: this.refs.frame is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.4.0/otBannerSdk.js, line 1: TypeError: t is undefined
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+JavaScript warning: https://code.createjs.com/1.0.0/createjs.min.js, line 12: Script terminated by timeout at:
+b.draw@https://code.createjs.com/1.0.0/createjs.min.js:12:22980
+b.draw@https://code.createjs.com/1.0.0/createjs.min.js:14:20101
+b.draw@https://code.createjs.com/1.0.0/createjs.min.js:13:8379
+c.draw@https://code.createjs.com/1.0.0/createjs.min.js:14:28037
+b.draw@https://code.createjs.com/1.0.0/createjs.min.js:13:8379
+c.draw@https://code.createjs.com/1.0.0/createjs.min.js:14:28037
+b.draw@https://code.createjs.com/1.0.0/createjs.min.js:13:8379
+b.draw@https://code.createjs.com/1.0.0/createjs.min.js:13:26973
+b.update@https://code.createjs.com/1.0.0/createjs.min.js:13:26465
+b.handleEvent@https://code.createjs.com/1.0.0/createjs.min.js:13:14830
+b._dispatchEvent@https://code.createjs.com/1.0.0/createjs.min.js:12:4075
+b._dispatchEvent@https://code.createjs.com/1.0.0/createjs.min.js:12:4158
+b.dispatchEvent@https://code.createjs.com/1.0.0/createjs.min.js:12:3479
+a._tick@https://code.createjs.com/1.0.0/createjs.min.js:12:7459
+a._handleTimeout@https://code.createjs.com/1.0.0/createjs.min.js:12:6772
+
+JavaScript error: https://www.cnn.com/ line 1 > injectedScript, line 4: TypeError: googletag.pubads is not a function
+JavaScript error: https://bleacherreport.com/, line 1: ReferenceError: osdlfm is not defined
+JavaScript error: https://bleacherreport.com/, line 1: ReferenceError: osdlfm is not defined
+JavaScript error: , line 0: uncaught exception: undefined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1602806619208	Marionette	INFO	Stopped listening on port 61513
+1602806622981	geckodriver	INFO	Listening on 127.0.0.1:63026
+1602806624001	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6h/m587l7615rd_v4fthk1vdnmr0000gn/T/rust_mozprofilefKr8tS"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602806629194	Marionette	INFO	Listening on port 63041
+1602806629271	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1602806731317	geckodriver	INFO	Listening on 127.0.0.1:63856
+1602806732335	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6h/m587l7615rd_v4fthk1vdnmr0000gn/T/rust_mozprofileJ7SlGs"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602806735266	Marionette	INFO	Listening on port 63872
+1602806735324	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://www.cnn.com/business line 1 > injectedScript, line 4: TypeError: googletag.pubads is not a function
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1602806863535	geckodriver	INFO	Listening on 127.0.0.1:64756
+1602806864541	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6h/m587l7615rd_v4fthk1vdnmr0000gn/T/rust_mozprofile3Lmi6i"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602806867498	Marionette	INFO	Listening on port 64776
+1602806867543	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://www.cnn.com/us line 1 > injectedScript, line 4: TypeError: googletag.pubads is not a function
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.4.0/otBannerSdk.js, line 1: TypeError: t is undefined
+JavaScript error: https://verticals-static.cnn.com/travel/assets/2.7ebc5e43b262b433fb83.js, line 36: TypeError: this.refs.frame is undefined
+JavaScript warning: https://www.cnn.com/travel, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/travel, line 1: unreachable code after return statement
+1602807021729	Marionette	INFO	Stopped listening on port 64776
+1602807056612	geckodriver	INFO	Listening on 127.0.0.1:49620
+1602807057625	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6h/m587l7615rd_v4fthk1vdnmr0000gn/T/rust_mozprofilewc2K6K"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602807061042	Marionette	INFO	Listening on port 49635
+1602807061133	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.att.com/scripts/dynatrace/js/dtagent_ICA23STVghjpqrst_7000100061012.js, line 143: TypeError: d is undefined
+JavaScript error: https://d2uap9jskdzp2.cloudfront.net/script.js line 1 > eval, line 1: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.4.0/otBannerSdk.js, line 1: TypeError: Ge.preferenceCenterGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.4.0/otBannerSdk.js, line 1: TypeError: Ge.preferenceCenterGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.4.0/otBannerSdk.js, line 1: TypeError: Ge.preferenceCenterGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.4.0/otBannerSdk.js, line 1: TypeError: Ge.preferenceCenterGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.4.0/otBannerSdk.js, line 1: TypeError: Ge.preferenceCenterGroup is undefined
+JavaScript error: https://www.cnn.com/entertainment line 1 > injectedScript, line 1: SecurityError: Permission denied to access property "setTimeout" on cross-origin object
+JavaScript error: https://verticals-static.cnn.com/travel/assets/2.7ebc5e43b262b433fb83.js, line 36: TypeError: this.refs.frame is undefined
+JavaScript warning: https://www.cnn.com/travel, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/travel, line 1: unreachable code after return statement
+1602815752252	Marionette	INFO	Stopped listening on port 49635
+1602815768828	geckodriver	INFO	Listening on 127.0.0.1:61950
+1602815769840	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/6h/m587l7615rd_v4fthk1vdnmr0000gn/T/rust_mozprofilesMbzB9"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602815772722	Marionette	INFO	Listening on port 61966
+1602815772737	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.cnn.com/us line 1 > injectedScript, line 4: TypeError: googletag.pubads is not a function
+JavaScript error: https://www.cnn.com/world line 1 > injectedScript, line 4: TypeError: googletag.pubads is not a function
+JavaScript error: https://www.cnn.com/politics line 1 > injectedScript, line 4: TypeError: googletag.pubads is not a function
+JavaScript warning: https://www.cnn.com/entertainment, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/entertainment, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/entertainment, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/entertainment, line 1: unreachable code after return statement
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: https://verticals-static.cnn.com/style/assets/common.3b9a92e499d58328889a.js, line 30: Error: Network error: Network request failed with status 200 - "OK"
+JavaScript error: https://verticals-static.cnn.com/travel/assets/2.7ebc5e43b262b433fb83.js, line 36: TypeError: this.refs.frame is undefined
+JavaScript warning: https://www.cnn.com/travel, line 1: unreachable code after return statement
+JavaScript warning: https://www.cnn.com/travel, line 1: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
